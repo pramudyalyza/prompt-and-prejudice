@@ -17,7 +17,7 @@
 ### Tech Stack
 
 - **Frontend:** [Next.js](https://nextjs.org)
-- **AI Model:** **Gemini 2.0 Flash** (to generate the prompts)
+- **AI Model:** **Gemini 2.0 Flash**
 
 ### Getting Started
 
@@ -29,12 +29,12 @@
     ```bash
    cd prompt-and-prejudice
    ```
-4. Create your .env file just like .env.example and paste your Gemini API Key
+3. Create your .env file just like .env.example and paste your Gemini API Key
     ```bash
    GEMINI_API_KEY=your_api_key_here
    ```
-6. Run the development server
+4. Run the development server
     ```bash
    npm run dev
    ```
-8. Open http://localhost:3000 in your browser and boom, you're good to go!
+5. Open http://localhost:3000 in your browser and boom, you're good to go!
