@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Prompt & Prejudice
 
-## Getting Started
+**Prompt & Prejudice** is a fun AI web app that generates romance story prompts. Whether you're stuck on ideas or just wanna have a little fun, toss in a couple of names, a mood, and a setting — or let the universe surprise you! The app will come up with a unique romance story prompt just for you ✨
 
-First, run the development server:
+### How It Works
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Enter the Names:** Give two names (or let the universe choose for you with the random button).
+2. **Pick the Vibe:** Choose a mood or setting, or hit random for a surprise.
+3. **Get Your Prompt:** The app will cook up a romantic story idea, ready to inspire you! 💖
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Super easy: Add names, vibe, and setting.
+- Random mode: Let fate decide your prompt!
+- Perfect for writers, daydreamers, and anyone who loves a good romance.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Tech Stack
 
-## Learn More
+- **Frontend:** [Next.js](https://nextjs.org)
+- **AI Model:** **Gemini 2.0 Flash** (to generate the prompts)
 
-To learn more about Next.js, take a look at the following resources:
+### Getting Started
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/pramudyalyza/prompt-and-prejudice.git
+   ```
+2. Navigate to the project folder:
+    ```bash
+   cd prompt-and-prejudice
+   ```
+4. Create your .env file just like .env.example and paste your Gemini API Key
+    ```bash
+   GEMINI_API_KEY=your_api_key_here
+   ```
+6. Run the development server
+    ```bash
+   npm run dev
+   ```
+8. Open http://localhost:3000 in your browser and boom, you're good to go!
